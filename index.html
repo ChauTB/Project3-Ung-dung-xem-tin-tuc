@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="Project 4.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Project 4.css">
+</head>
+
+<body>
+    <div class="col-all">
+        <div class="menu">
+            <nav>
+                <ul id="menu">
+                    <li class="left"><a href="#">Trang chủ</a></li>
+                    <li class="right"><a href="#">Hỗ trợ</a></li>
+                    <li class="right"><a href="#">Đăng nhập</a></li>
+                    <li class="right"><a href="#">Đăng ký</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="timkiem">
+            <h1>My News <i id="myBtn" class="fa fa-search"></i></h1>
+
+            <!-- Modal Cho Website -->
+            <div id="myModal" class="modal">
+                <!-- Nội Dung Modal -->
+                <div class="modal-content">
+                    <span class="close">×</span>
+                    Keywords
+                    <input class="tim" type="text">
+                    <select class=".theloai">
+                        <option value="">Section</option>
+                        <option value="health">Health</option>
+                        <option value="sports">Sports</option>
+                        <option value="magazine">Magazine</option>
+                        <option value="travel">Travel</option>
+                        <option value="tech">Tech</option>
+                        <option value="science">Science</option>
+                    </select>
+                    <button type="button" class="close1">Search</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="preloading">
+            <div class="load">
+                <img src="loader.gif">
+            </div>
+            <div id="tintuc">
+            </div>
+            <div class="tailai"></div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
